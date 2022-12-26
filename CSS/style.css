@@ -12,14 +12,15 @@ body {
     background-color: #937758;
     justify-content: space-around;
     font-size: 30px;
+    font-family: serif;
     color: #374b50;
     text-decoration: none;
     align-items: center;
 }
-a.topnav:hover {
-    color: white;
-  }
 
+a.topnav:hover {
+  color: white;
+}
  
   .container {
     color: black;

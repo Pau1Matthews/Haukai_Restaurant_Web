@@ -23,11 +23,29 @@
                         width="200"
                         height="200">
                     </a></li>
-                <a href="Menu.html" class="topnav">Menu</a></li>
-                <a href="Reservations.html" class="topnav">Reservations</a></li>
-                <a href="Contact.html" class="topnav">Contact Us</a></li>
-                <a href="Hours.html" class="topnav">Hours</a></li>
+                    <a href="Menu.html" class="topnav w3-hide-small">Menu</a>
+                    <a href="Reservations.html" class="topnav w3-hide-small">Reservations</a>
+                    <a href="Contact.html" class="topnav w3-hide-small">Contact Us</a>
+                    <a href="Hours.html" class="topnav w3-hide-small">Opening Hours</a>
+                    <a href="javascript:void(0)" class="topnav w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
                 
+                    <div id="options" class="w3-bar-block w3-#937758 w3-hide w3-hide-large w3-hide-medium">
+                        <a href="Menu.html" class="topnav w3-padding-16">Menu</a>
+                        <a href="Reservations.html" class="topnav w3-padding-16">Reservations</a>
+                        <a href="Contact.html" class="topnav w3-padding-16">Contact Us</a>
+                        <a href="Hours.html" class="topnav w3-padding-16">Opening Hours</a>
+                      </div>
+
+                      <script>
+                        function myFunction() {
+                          var x = document.getElementById("options");
+                          if (x.className.indexOf("w3-show") == -1) {
+                            x.className += " w3-show";
+                          } else { 
+                            x.className = x.className.replace(" w3-show", "");
+                          }
+                        }
+                        </script>
             </nav>
         </header>
 
