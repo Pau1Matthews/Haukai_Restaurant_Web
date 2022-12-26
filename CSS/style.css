@@ -1,0 +1,100 @@
+ /* Universal box sizing */
+ * {   
+    box-sizing: border-box;
+    }
+
+body {    
+  background-color: black;  
+}
+
+.topnav{
+    display: flex;
+    background-color: #937758;
+    justify-content: space-around;
+    font-size: 30px;
+    color: #374b50;
+    text-decoration: none;
+    align-items: center;
+}
+a.topnav:hover {
+    color: white;
+  }
+
+ 
+  .container {
+    color: black;
+    text-align: center;
+    background-color: #d9cfc5;
+    border-radius: 10px;
+  }
+  h1 {
+    margin: 0px;
+  }
+   .buttons {
+    display: flex;
+    justify-content: center;
+  }
+  .container .btn { 
+    background-color: #937758;
+    color: #374b50;
+    font-size: 30px;
+    padding: 50px 70px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+    margin: 50px;
+    text-decoration: none;
+  }
+  .container .btn:hover {
+    background-color: black;
+    color: white;
+  }
+
+.twocolumn{
+    color: white; 
+}
+ /* Create two equal columns that float next to
+ each other */
+ .twocolumn {
+    float:left;
+    width:50%;   
+    padding: 15px; 
+    border: 10px;
+    border-radius: 10px;  
+}
+/* Clear floats after the columns */
+.content:after {
+   content: "";   
+    display: table;
+    clear:both;
+}
+
+ /* Create three equal columns that float next to
+ each other */
+ .threecolumn {
+  float:left;
+  width:33%;   
+  padding: 15px; 
+  border: 10px;
+  border-radius: 10px;  
+}
+
+.text {
+  background-color: #d9cfc5;
+  color: #374b50;
+  border-radius: 20px;
+}
+
+.reservation{
+  background-color: #d9cfc5;
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  background-color: #937758;
+}
