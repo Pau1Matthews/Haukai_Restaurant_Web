@@ -4,7 +4,7 @@
     }
 
 body {    
-  background-color: black;  
+  background-image: linear-gradient(black, rgb(80, 1, 1));  
 }
 
 .topnav{
@@ -26,9 +26,15 @@ a.topnav:hover {
     text-align: center;
     background-color: #d9cfc5;
     border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
   }
   h1 {
     margin: 0px;
+  }
+
+  p1 {
+    font-size: x-large;
   }
    .buttons {
     display: flex;
@@ -84,12 +90,16 @@ a.topnav:hover {
   background-color: #d9cfc5;
   color: #374b50;
   border-radius: 20px;
+  padding: 10px;
 }
 
 .reservation{
   background-color: #d9cfc5;
   display: flex;
   justify-content: center;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
 }
 
 .footer {
