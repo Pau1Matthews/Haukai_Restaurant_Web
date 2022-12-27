@@ -109,3 +109,21 @@ a.topnav:hover {
   color: white;
   background-color: #937758;
 }
+
+@media (max-width: 1000px) 
+ {
+    .topnav
+    {
+      font-size: 15px; 
+    }
+    
+ }
+
+ @media (max-width: 600px) 
+ {
+    .topnav
+    {
+      font-size: 40px; 
+    }
+    
+ }
