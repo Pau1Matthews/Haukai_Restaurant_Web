@@ -21,6 +21,11 @@ body {
 a.topnav:hover {
   color: white;
 }
+
+.burgerNav{
+  font-size: 10vw;
+  text-decoration: none;
+}
  
   .container {
     color: black;
@@ -114,16 +119,24 @@ a.topnav:hover {
  {
     .topnav
     {
-      font-size: 15px; 
+      font-size: 20px; 
     }
     
+    .buttons{
+      flex-direction: column;
+      
+    }
+
+    .content{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+
+    .threecolumn{
+      width: 100%;
+    }
+
  }
 
- @media (max-width: 600px) 
- {
-    .topnav
-    {
-      font-size: 40px; 
-    }
-    
- }
+ 
