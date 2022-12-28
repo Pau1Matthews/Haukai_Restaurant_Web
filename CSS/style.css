@@ -56,23 +56,15 @@ a.topnav:hover {
     color: white;
   }
 
-.twocolumn{
-    color: white; 
-}
- /* Create two equal columns that float next to
+/* Create two equal columns that float next to
  each other */
  .twocolumn {
+    color: white;
     float:left;
     width:50%;   
     padding: 15px; 
     border: 10px;
     border-radius: 10px;  
-}
-/* Clear floats after the columns */
-.content:after {
-   content: "";   
-    display: table;
-    clear:both;
 }
 
  /* Create three equal columns that float next to
@@ -85,22 +77,28 @@ a.topnav:hover {
   border-radius: 10px;
  }
 
+ /* Clear floats after the columns */
+.content:after {
+  content: "";   
+   display: table;
+   clear:both;
+}
 
+/* Text Styling */
 .text {
   background-color: #d9cfc5;
   color: #374b50;
   border-radius: 20px;
   padding: 10px;
 }
-
 h1 {
   margin: 0px;
 }
-
 p1 {
   font-size: x-large;
 }
 
+/* Google component Styling */
 .tools{
   background-color: #d9cfc5;
   display: flex;
@@ -110,6 +108,7 @@ p1 {
   border-radius: 10px;
 }
 
+/* footer styling */
 .footer {
   display: flex;
   justify-content: space-around;
@@ -117,6 +116,7 @@ p1 {
   background-color: #937758;
 }
 
+/* Small display styling */
 @media (max-width: 1000px) 
  {
     .topnav
