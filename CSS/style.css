@@ -7,6 +7,7 @@ body {
   background-image: linear-gradient(black, rgb(80, 1, 1));  
 }
 
+/* Top Navigation Bar */
 .topnav{
     display: flex;
     background-color: #937758;
@@ -17,16 +18,15 @@ body {
     text-decoration: none;
     align-items: center;
 }
-
 a.topnav:hover {
   color: white;
 }
-
 .burgerNav{
   font-size: 10vw;
   text-decoration: none;
 }
  
+/* Styles for button elements */
   .container {
     color: black;
     text-align: center;
@@ -34,13 +34,6 @@ a.topnav:hover {
     border-radius: 10px;
     padding: 20px;
     margin: 20px;
-  }
-  h1 {
-    margin: 0px;
-  }
-
-  p1 {
-    font-size: x-large;
   }
    .buttons {
     display: flex;
@@ -90,16 +83,22 @@ a.topnav:hover {
   padding: 15px; 
   border: 10px;
   border-radius: 10px;
-
  }
 
- 
 
 .text {
   background-color: #d9cfc5;
   color: #374b50;
   border-radius: 20px;
   padding: 10px;
+}
+
+h1 {
+  margin: 0px;
+}
+
+p1 {
+  font-size: x-large;
 }
 
 .tools{
